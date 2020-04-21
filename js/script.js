@@ -1,7 +1,9 @@
-function init(){
- eb.addEventListener('click', function() {
-    alert('Griselda Pasillas: ' + msg.value);
-	document.getElementById('textoutput').innerHTML = msg.value;});
-  var msg = document.getElementById('entryinput');	
-  var eb = document.getElementById('entrybutton');}
-window.addEventListener('load', init);
+function myFunction() {
+  var textInput= document.getElementById("entryinput");
+  var textOutput= document.getElementById("textoutput");
+  alert("Desmend Jetton: " + textInput.value);
+  textOutput.innerHTML = textInput.value;
+  textInput.value="";
+}
+  var alertButton =document.getElementById("entrybutton");
+  alertButton.addEventListener("click", myFunction);
