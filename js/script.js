@@ -1,7 +1,7 @@
 function myFunction() {
   var textInput= document.getElementById("entryinput");
   var textOutput= document.getElementById("textoutput");
-  alert("Desmend Jetton: " + textInput.value);
+  alert("Griselda Pasillas: " + textInput.value);
   textOutput.innerHTML = textInput.value;
   textInput.value="";
 }
