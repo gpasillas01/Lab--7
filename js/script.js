@@ -1,12 +1,11 @@
+function init() {
+    //add your javascrip between these two lines of code
+    var button = document.getElementById('entrybutton');
+    var msg = document.getElementById('entryinput');
 
-function myFunction() {
-  var textInput= document.getElementById("entryinput");
-  var textOutput= document.getElementById("textoutput");
-  alert("Desmend Jetton: " + textInput.value);
-  textOutput.innerHTML = textInput.value;
-  textInput.value="";
+    button.addEventListener('click', function () {
+        alert("Esther Kim: " + msg.value);
+        document.getElementById('textoutput').innerHTML = msg.value;
+    });
 }
-  var alertButton =document.getElementById("entrybutton");
-  alertButton.addEventListener("click", myFunction);
-
 window.addEventListener('load', init);
