@@ -1,4 +1,4 @@
-function init(){
+
 function myFunction() {
   var textInput= document.getElementById("entryinput");
   var textOutput= document.getElementById("textoutput");
